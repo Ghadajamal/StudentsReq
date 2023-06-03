@@ -1,0 +1,20 @@
+html{
+    border:1px double black;
+}
+
+div.encadrer-un-contenu {
+    border:1px double black;
+    border-radius: 25px;
+}  
+
+h1{
+    border: 2px SOLID black; 
+}
+img {
+    width: 150px;
+    height: 150px;
+    outline-offset: 20px;
+}
+P{
+    outline-offset:500px;
+}

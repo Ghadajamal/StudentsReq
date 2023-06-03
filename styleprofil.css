@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: "Poppings",sans-serif;
+}
+body {
+    background: linear-gradient(-45deg,rgb(0, 0, 0) , rgb(158, 44, 87) );
+}
+nav{
+   position: sticky;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 340px;
+    left: 0;
+    background: white;
+/*    overflow: hidden;*/
+    transition: 1s;
+}
+.logo{
+    text-align: center;
+    display: flex;
+    margin: 13px 0 0 30px;
+    padding-bottom: 3rem;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+.logo span {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+a {
+    position: relative;
+    width: 100%;
+    font-size: 20px;
+    color: black;
+    display: table;
+    padding: 10px;
+}
+nav .fas{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    top: 10px;
+    text-align: center;
+}
+.nav-item{
+  position: relative;
+  top: 12px;
+  margin-left: 10px;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  background-color:transparent ;
+}
+.nav-item:hover{
+background-color:transparent ;
+color: rgb(158, 44, 87);
+}
+.nav-item input{
+color:rgb(161, 156, 156);
+}
+
+a:hover i{
+    color: rgb(191, 107, 208);
+    transition: 0.5s;
+}
+.logout{
+    position: absolute;
+    bottom: 0;
+}
+.container{
+    display: flex;
+}
+.main{
+    position: relative;
+    padding: 20px;
+   width: 90%;
+  }
+.Utilisateurs{
+    margin-top: 10px;
+    text-transform: capitalize;
+  }
+ .users-list{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: white;
+    border-radius: 10px;
+  }
+  .users-list h1{
+    text-align: center;
+  }
+.table{
+     min-width: 70%;
+    margin: 15px 0;
+    font-size: 15px;
+     /*  overflow: hidden;*/
+    border-radius: 5px 5px 0 0;
+  }
+   table thead tr{
+    color:rgb(7, 7, 7);
+    background: white;
+    text-align: left;
+    font-weight: bold;
+  }
+  .table th,
+  .table td{
+    padding: 0.1px 6px;
+  text-align: center;
+  }
+  .table tbody tr:nth-of-type(odd){
+    background: white;
+  }
+  .table button{
+    padding: 6px 20px;
+    border-radius: 70px;
+    cursor: pointer;
+    background: transparent;
+  }
+  .table button:hover{
+    background: rgb(213, 95, 188);
+    color: black;
+    transition: 0.5rem;
+  }
+  .sous sous-menu{
+    width: 90%;
+    font-size: 15px;
+    color: black;
+    padding: 2px;
+    left: 15%;
+  
+
+  }
+  .sous sous-menu:hover {
+    color: rgb(158, 44, 87);
+    transition: 0.5s;
+}
+.sm li :hover .sous-menu{
+  display: block;
+
+}
+  .sous1 sous-menu{
+    width: 90%;
+    font-size: 15px;
+    color: black;
+    padding: 2px;
+    left: 15%;
+  
+
+  }
+  .sous1 sous-menu:hover {
+    color: rgb(158, 44, 87);
+    transition: 0.5s;
+}
+.icone{
+ padding-top: 5%;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icone .fas{
+  cursor: pointer;
+  font-size: 0.8rem;
+  display: inline-flex;
+  padding: 0rem 0.5rem;
+}
+.lin {
+  position: relative;
+  width: 100%;
+  font-size: 20px;
+  color: black;
+  display: table;
+  padding: 10px;
+}
+.lin:hover i{
+  color: rgb(217, 95, 170);
+  transition: 0.5s;
+}
+.search{
+  align-items: center;
+  justify-content: center;
+}

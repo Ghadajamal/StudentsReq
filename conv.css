@@ -1,0 +1,7 @@
+div.encadrer-un-contenu {
+    border:1px double black;
+    border-radius: 25px;
+}  
+h1{
+    border: 2px SOLID black; 
+}

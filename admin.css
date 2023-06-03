@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+body {
+    width: 100%;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #bdbcbb;
+}
+
+nav {
+    width: 13rem;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    background: rgb(52, 52, 54, 0.99);
+    box-shadow: rgba(20, 20, 19, 0.2) 0 4px 14px;
+    transition: 1s ease;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+li {
+    width: 100%;
+    transition: 1s;
+    color: bisque;
+    font-size: 15px;
+}
+
+.lien {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 5rem;
+    width: 100%;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 15px;
+    margin-left: 1.5rem;
+    color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.titre {
+    font-size: 15px;
+    margin-left: 1.5rem;
+    color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li:hover {
+    background-color: rgba(192, 180, 171, 0.8);
+}
+
+table {
+    background-color: rgb(146, 141, 135);
+    border-collapse: collapse;
+    border: transparent;
+    width: 100%;
+}
+
+button {
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 10px;
+    color: #201f1f;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    background-color: #6d6d6e;
+    color: #0c0d0d;
+    font-size: 15px;
+    width: 70px;
+}
+
+th,
+td {
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+tr:hover td {
+    color: #e4dfd9;
+    border: #3d3c3b;
+    background-color: #3d3c3b;
+}
+
+.spr {
+    border: none;
+    padding: 7px 20px;
+    border-radius: 20px;
+    background-color: black;
+    color: #e6e7e8;
+}
+
+.cont {
+    padding-left: 13rem;
+}

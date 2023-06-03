@@ -1,0 +1,274 @@
+*{
+    margin : 0;
+    padding: 0;
+    font-family: 'Roboto','sans serif';
+}
+.container{
+    height: 100vh;
+  background: linear-gradient(-45deg,rgb(0, 0, 0) , rgb(158, 44, 87) );
+  height: 100%;
+
+
+}
+.navbar{
+  height: 12%;
+  display: flex;
+
+}
+.logo{
+  margin-top: 10px;
+  width: 100px;
+  cursor: pointer;
+}
+nav{
+   flex:1;
+}
+nav h1{
+  transform: translateX(-0.4%);
+  font-family: 'Pacifico', cursive;
+  font-size: 1.4rem;
+  color: #ffffff;
+}
+.row{
+  display: flex;
+  height: 88%;
+align-items: center;
+padding: 15px;
+margin-top: -10px;
+}
+.col{
+ /* position: relative;
+  width: 300px;
+  height: 250px;
+background-color: #9e2c57;
+border-radius: 5px;
+box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3),0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  padding: 0;
+ min-height: 100vh;
+ overflow: hidden;*/
+ flex-basis: 40%; 
+}
+h1{
+  font-family: 'Courier new';
+  padding: 5px;
+  color: #fff;
+  font-size: 80px;
+  transform: translateX(20%);
+}
+p{
+  padding: 5px;
+  color: #fff;
+  font-size: 18px;
+}
+h5{
+  padding: 5px;
+  color: #bbbbbb;
+  font-size: 10px;
+}
+.btn{
+  cursor: pointer;
+  width: 210px;
+  height: 30px;
+  border: none;
+  border-radius: 50px 20px;
+  background-color:#9e2c57;
+ text-transform: uppercase; 
+ font-weight: bold;
+ margin: 15px 0;
+transition: all 0.5s;
+transform: translateX(50%);
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.btn a{
+  text-decoration-line: none;
+color: antiquewhite;
+}
+.btn{
+  color:rgb(214, 209, 209);
+}
+.btn:hover{
+  background-color: transparent;
+}
+
+.cn{
+ cursor: pointer;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color:#9e2c57;
+ text-transform: uppercase; 
+ font-weight: bold;
+ margin: 1px 0;
+transition: all 0.5s;
+transform: translateX(850%);
+}
+.cn{
+  color: rgb(214, 209, 209);
+}
+.cn:hover{
+  background-color: transparent;
+}
+.cn a{
+  text-decoration: none;
+  color: rgb(214, 209, 209);
+}
+.bn{
+  transform: translateX(830%);
+ cursor: pointer;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color:#9e2c57;
+ text-transform: uppercase; 
+ font-weight: bold;
+ margin: 1px 0;
+ margin-top: 1%;
+}
+.bn{
+  color: rgb(214, 209, 209);
+}
+.bn:hover{
+  background-color: transparent;
+}
+.bn a{
+  text-decoration: none;
+  color: rgb(214, 209, 209);
+}
+.mn{
+  transform: translateX(840%);
+  cursor: pointer;
+   width: 100px;
+   height: 40px;
+   border: none;
+   border-radius: 50%;
+   background-color:#9e2c57;
+  text-transform: uppercase; 
+  font-weight: bold;
+  margin: 1px 0;
+ }
+ .mn{
+   color: rgb(214, 209, 209);
+ }
+ .mn a{
+   text-decoration: none;
+   color: rgb(214, 209, 209);
+ }
+ .mn:hover{
+   background-color: transparent;
+ }
+.card{
+  transform: translateX(130%);
+  width: 200px;
+  height: 250px;
+  display: inline-block;
+  border-radius: 10px;
+padding:10px 25px;
+box-sizing: border-box;
+cursor: pointer;
+margin: 10px 15px;
+background-position: center;
+background-size: cover;
+transition: transform 90s;
+}
+.card1{
+
+  background-image: url(1.jpeg);
+}
+.card2{
+
+  background-image: url(2.jpeg);
+}
+.card2 a {
+text-decoration: none;
+}
+.card3{
+
+  background-image: url(3.jpeg);
+}
+.card4{
+  background-image: url(background.jpeg);
+}
+.card:hover{
+  transform: translateY(-1000px);
+}
+.card p{
+  color: transparent;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+    color: #bbbbbb;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+   color: #bbbbbb;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 100px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.pa {
+  font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.pa:hover{
+  color: #bbbbbb;
+	padding-left: 8px;
+}
+.footer-col ul li a:hover{
+  color: #bbbbbb;
+	padding-left: 8px;
+}
+
+.containers{
+	max-width: 1170px;
+	margin:auto;
+  height: 30%;
+}

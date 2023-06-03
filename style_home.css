@@ -1,0 +1,84 @@
+
+
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+h1{
+    font-size: 2.6rem;
+    color: #ffffff;
+}
+h2{
+    font-size: 4.8rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+h4, h5{
+    font-size: 2.8rem;
+}
+li{
+    font-size: 2rem;
+}
+a{
+    color:#ffffff;
+    text-decoration: none;
+}
+/*header*/
+.main-head{
+    background:#9e2c57;
+    color:#fffff;
+}
+
+nav{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+
+}
+
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+#logo{
+    flex: 2 1 40rem;
+    font-family: 'Pacifico', cursive;
+}
+/*hero*/
+.hero{
+    min-height: 90vh;
+    background: url("/images/university.jpg");   
+    background-size: cover;
+    color:#9e2c57;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.hero h3{
+    padding: 4rem;
+}
+button{
+    padding: 2rem 6rem;
+    background:#9e2c57 ;
+    color:#ffffff;
+    font-size: 1.8rem;
+    cursor: pointer;
+    border: none;
+}
